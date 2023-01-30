@@ -1,0 +1,63 @@
+.content>.kind_slider {
+    overflow: hidden;
+}
+
+.content>.kind_slider .slider {
+    position: relative;
+    transition: 0.5s;
+}
+
+.content>.kind_slider .slider li {
+    float: left;
+}
+
+.content>.kind_slider img {
+    vertical-align: center;
+}
+
+.content .arrow> .prev {
+    width:40px;
+    height:40px;
+    position: absolute;
+    left: 1%;
+    top: 160px;
+    z-index:3;
+    cursor: pointer;
+}
+
+.prev::after {
+    position: absolute;
+    left: 20px; 
+    top: 40px;
+    content: '';
+    width: 40px; /* 사이즈 */
+    height: 40px; /* 사이즈 */
+    border-top: 8px solid #fff; /* 선 두께 */
+    border-right: 8px solid #fff; /* 선 두께 */
+    border-radius: 20%;
+    transform: rotate(225deg); /* 각도 */
+    cursor: pointer;
+}
+
+.content .arrow> .next {
+    width:40px;
+    height:40px;
+    position: absolute;
+    right: 1%;
+    top: 160px;
+    cursor: pointer;
+    z-index:3;
+}
+
+.next::after {
+    position: absolute;
+    left: -20px; 
+    top: 40px; 
+    content: '';
+    width: 40px; /* 사이즈 */
+    height: 40px; /* 사이즈 */
+    border-top: 8px solid #fff; /* 선 두께 */
+    border-right: 8px solid #fff; /* 선 두께 */
+    border-radius: 20%;
+    transform: rotate(45deg); /* 각도 */
+}

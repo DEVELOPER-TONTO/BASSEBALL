@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'NEXON Lv1 Gothic OTF';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  list-style: none;
+  color: black;
+  font-family: 'NEXON Lv1 Gothic OTF';  
+}
+
+.accordion{
+  width:300px;
+  height:340px;
+}
+
+.accordion input[id*="topic"]{
+  display:none;
+}
+
+.accordion input[id*="topic"]+label{
+  display:block;
+  position: relative;
+  padding:20px;
+  /* border:1px solid #9adb64;  */
+  border-bottom:0;
+  color:#fff;
+  font-weight:700;
+  background:#332f2d;
+  cursor: pointer;
+}
+
+.accordion input[id*="topic"]+label em{
+  position:absolute;
+  top:50%;
+  right:10px;
+  width:30px;
+  height:30px;
+  margin-top:-15px;
+  display:inline-block;
+  background:url('/img/arrow.png') 0 0 no-repeat;
+}
+
+.accordion input[id*="topic"]+label+div{
+  max-height:0;
+  transition: all .35s;
+  overflow:hidden;
+  background: #888888;
+  font-size:14px;
+  font-weight:700;  
+}
+
+.accordion input[id*="topic"]+label+div p{
+  display:inline-block;
+  padding:45px;
+  color:#fff;
+}
+
+.accordion input[id*="topic"]+label+.a1 p{
+  display:inline-block;
+  padding:28px;
+}
+
+.accordion input[id*="topic"]+label+.a2 p{
+  display:inline-block;
+  padding:20px;
+}
+
+
+.accordion input[id*="topic"]:checked+label+div{
+  max-height:150px;                      
+}
+
+.accordion input[id*="topic"]:checked+label em{
+  background-position: 0 -30px;
+}
+.accordion span{
+  color:#0400ff;
+  font-size:16px;
+}
+
+
+

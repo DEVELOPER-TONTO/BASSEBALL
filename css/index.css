@@ -1,0 +1,199 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'NEXON Lv1 Gothic OTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    list-style: none;
+    color: black;
+    font-family: 'NEXON Lv1 Gothic OTF';
+}
+
+html{
+    background-color: #f9f9f9;
+}
+
+
+h2{
+    font-size:19px;
+    padding-bottom:15px;
+}
+
+/* 슬라이드 배너부분 */
+.content{
+    width:1600px;
+    height:400px;
+    margin:0 auto;
+    position: relative;
+    background-image:url(/img/바세볼.png);
+    z-index:1;
+    padding-top:40px;
+    padding-bottom:10px;
+    background-repeat: none;
+    background-color: #F9F9F9;
+}
+
+/* 오늘의 야구상식, 토픽부분 */
+.aside{
+    padding-top:20px;
+    width: 1600px;
+    height:400px;
+    margin:0 auto;
+    display:flex;
+    padding-bottom:20px;
+    background-color: #F9F9F9;
+}
+
+.aside .left-area{
+    width:700px;
+    height:400px;
+    display:flex;
+    background-color: #F9F9F9;
+}
+
+.left-area > .day{
+    width:700px;
+    height:380px;
+    margin-top:20px;
+    background-color: #F9F9F9;
+}
+
+
+.day .today{
+    width:100%;
+    height:340px;
+    background-color: #f9f9f9;
+}
+
+.right-area{
+    width:900px;
+    height:400px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+}
+
+
+.right-area > .sub{
+    width:300px;
+    height:380px;
+    margin-top:20px;
+    margin-left:50px;
+}
+
+.right-area > .sub2{
+    width:500px;
+    height:380px;
+    margin-top:20px;
+}
+
+.right-area >.sub2> .topic2{
+    width:300px;
+    height:340px;
+    cursor: pointer;
+}   
+
+.right-area > .sub> .topic{
+    width:500px;
+    height:340px;
+}
+
+.article-wrap{
+    width:1600px;
+    height:300px;
+    margin:0 auto;
+    padding-top:30px;
+}   
+
+.footer{
+    margin-top:30px;
+    height:200px;
+    background-color: #6d6b6b; 
+}
+
+.footer > .top-footer{
+    width:1600px;
+    margin:0 auto;
+    height:50px;
+    border-bottom:1px solid #dbd9d9;
+}
+
+.top-footer > .top-area{
+    width:1600px;
+    height:50px;
+    margin:0 auto;
+    display:flex;
+}
+
+.top-area > h3{
+    font-size:25px;
+    color: #b4afaf;
+    padding-top:10px;
+}
+
+.bottom-area{
+    width:1600px;
+    height:100px;
+    display:flex;
+    align-items: center;
+    margin:0 auto;
+}
+
+.bottom-left > h3{
+    font-size:16px;
+    color: #cfcccc;
+    padding-top:10px;
+}
+
+.bottom-left{
+    width:400px;
+    height:100px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bottom-center{
+    width:800px;
+    height:100px;
+    margin:auto;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.bottom-center > h3 > a {
+    font-size:17px;
+    color: #fffff1;
+    padding-top:10px;
+}
+
+.bottom-right{
+    width:400px;
+    height:10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:right;
+}
+
+.bottom-right > h3{
+    font-size:15px;
+    color: #ccc9c9;
+    padding-top:10px;
+}
+
+.bottom-right > h3 >a{
+    font-size:20px;
+    color:#000000;
+}

@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./img/야구장.png" rel="shortcut icon" type="image/x-icon">
+    <title>바쎄볼-야구의 모든것!</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/slide.css">
+    <link rel="stylesheet" href="css/article.css">
+    <link rel="stylesheet" href="css/accordion.css">
+    <script defer src="./js/index.js"></script>
+    <script defer src="./js/slide.js"></script>
+    <script defer src="https://kit.fontawesome.com/8c0f98a485.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header-wrap">
+            <div class="header">
+                <div class="logo" onclick="moveHome()">
+
+                </div>
+
+                <div class="title-wrap">
+                    <div class="title">
+                        <ul>
+                            <li><a href="basseball.html">바쎄볼이란</a></li>
+                            <li><a href="real-baseball.html">야구소개</a>
+                                <ul class="submenu">
+                                    <li><a href="real-baseball.html">야구의 시초</a></li>
+                                    <li><a href="real-baseball.html">야구의 룰</a></li>
+                                    <li><a href="real-baseball.html">야구의 발전</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="real-baseball2.html">타자관련정보</a>
+                                <ul class="submenu">
+                                    <li><a href="real-baseball2.html">타자유형</a></li>
+                                    <li><a href="real-baseball2.html">포지션</a></li>
+                                    <li><a href="real-baseball2.html">대수비</a></li>
+                                    <li><a href="real-baseball2.html">대주자</a></li>
+                                    <li><a href="real-baseball2.html">대타</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="real-baseball3.html">투수관련정보</a>
+                                <ul class="submenu">
+                                    <li><a href="real-baseball3.html">투수유형</a></li>
+                                    <li><a href="real-baseball3.html">투수의 역할</a></li>
+                                    <li><a href="real-baseball3.html">구종</a></li>
+                                    <li><a href="real-baseball3.html">구속</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="real-baseball4.html">야구장비</a>
+                                <ul class="submenu">
+                                    <li><a href="real-baseball4.html">공격장비</a></li>
+                                    <li><a href="real-baseball4.html">수비장비</a></li>
+                                    <li><a href="real-baseball4.html">그 외 장비</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="real-baseball5.html">야구리그</a>
+                                <ul class="submenu">
+                                    <li><a href="real-baseball5.html">미국</a></li>
+                                    <li><a href="real-baseball5.html">한국</a></li>
+                                    <li><a href="real-baseball5.html">일본</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="ddc">
+                    <input type="text" placeholder="search">
+                    <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="kind_slider">
+                <ul class="slider">
+                    <li><img src="img/바세볼ㄹㅇ1빠.png" width="1600px" height="400px"></li>
+                    <li><img src="/img/바세볼1빠.png" width="1600px" height="400px"></li>
+                    <li><img src="/img/바쎄볼3.png" width="1600px" height="400px"></li>
+                    <li><img src="/img/바세볼2.png" width="1600px" height="400px"></li>
+                    <!-- <li><img src="/img/바쎄볼4.png" width="1600px" height="400px"></li> -->
+                </ul>
+            </div>
+            <div class="arrow">
+                <div class="prev"></div>
+                <div class="next"></div>
+            </div>
+        </div>
+
+        <div class="aside">
+            <div class="left-area">
+                <div class="day">
+                    <h2>오늘의 1초 퀴즈</h2>
+                    <div class="today">
+                        <img src="/img/바세볼 퀴즈.png" width="700px" height="340px">
+                    </div>
+                </div>
+            </div>
+            <div class="right-area">
+                <div class="sub">
+                    <h2>오늘의 토픽</h2>
+                    <div class="topic">
+                        <div class="accordion">
+                            <input type="radio" name="accordion" id="topic01" checked="checked">
+                            <label for="topic01">최강야구 김성근 감독 부임..<em></em></label>
+                            <div class="a1">
+                                <p>11월 7일부터 김성근 감독이 부임했다는 소식입니다. <br>여러분은 어떻게 생각하십니까?</p>
+                            </div>
+                            <input type="radio" name="accordion" id="topic02">
+                            <label for="topic02">제1회 오늘의 퀴즈 정답발표!<em></em></label>
+                            <div>
+                                <p>퀴즈정답은 홈런이었습니다!</p>
+                            </div>
+                            <input type="radio" name="accordion" id="topic03">
+                            <label for="topic03">김연우 미국서 토미존수술 진행..<em></em></label>
+                            <div class="a2">
+                                <p>스플리터를 너무 많이 던진게 부상원인이라고 합니다.  <br> 인터뷰에서도 "내 선수생활은 그래도 <br> 스플리터" 라는 말을 했습니다.</p>
+                            </div>
+                            <input type="radio" name="accordion" id="topic04">
+                            <label for="topic04">야구 판정 게임등장!<em></em></label>
+                            <div>
+                                <p>오심을 바로 잡아보세요! &nbsp;<a
+                                        href="https://www.nytimes.com/interactive/2022/sports/baseball/umpire-pitch-ball-strike-game.html"><span>링크</span></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub2">
+                    <h2>오늘의 추천 야구영상</h2>
+                    <div class="topic2">
+                        <a href="https://www.youtube.com/watch?v=JabpByoKwJc"><img src="/img/이미지대체.PNG" width="500px"
+                                height="340px"></a>
+                        <!-- <iframe width="500" height="340" src="https://www.youtube.com/embed/JabpByoKwJc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                        <!-- <iframe onload="this.media='all'" width="500" height="340" src="https://www.youtube.com/embed/S4u5hxIcaXE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="article-wrap">
+            <h2>올해의 KBO기록 TOP5</h2>
+            <div class="article">
+                <div class="boxs">
+                    <div class="box1">
+                        <div class="box-top">
+                            <h1>홈런 TOP5</h1>
+                        </div>
+                        <div class="box-wrap">
+                            <div class="box-left">
+                                <a
+                                    href="https://www.koreabaseball.com/Record/Player/HitterDetail/Basic.aspx?playerId=75125"><img
+                                        src="/img/박병호.jpg" width="120px" height="151px"></a>
+                            </div>
+                            <div class="box-right">
+                                <div class="box-right-box1"><a
+                                        href="https://www.koreabaseball.com/Record/Player/HitterDetail/Basic.aspx?playerId=75125">1
+                                        &nbsp;박병호</a> &nbsp;<strong>KT</strong> <span>35개</span>
+                                </div>
+                                <div class="box-right-box"><a
+                                        href="https://www.koreabaseball.com/Record/Player/HitterDetail/Basic.aspx?playerId=51463">2
+                                        &nbsp;피렐라</a> &nbsp;&nbsp;<span>삼성</span> <span>28개</span>
+                                </div>
+                                <div class="box-right-box"><a
+                                        href="https://www.koreabaseball.com/Record/Player/HitterDetail/Basic.aspx?playerId=75847">3
+                                        &nbsp;최정</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>SSG</span> <span>26개</span>
+                                </div>
+                                <div class="box-right-box"><a
+                                        href="https://www.koreabaseball.com/Record/Player/HitterDetail/Basic.aspx?playerId=79109">4
+                                        &nbsp;오지환</a> &nbsp;<span>삼성</span> <span>25게</span>
+                                </div>
+                                <div class="box-right-box"><a
+                                        href="https://www.koreabaseball.com/Record/Player/HitterDetail/Basic.aspx?playerId=78224">5
+                                        &nbsp;김재환</a> &nbsp;<span>두산</span> <span>23개</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="box-top">
+                            <h1>타율 TOP5</h1>
+                        </div>
+                        <div class="box-wrap">
+                            <div class="box-left">
+                                <a
+                                    href="https://www.koreabaseball.com/Record/Player/HitterDetail/Basic.aspx?playerId=67341"><img
+                                        src="/img/이정후.jpg" width="120px" height="151px"></a>
+                            </div>
+                            <div class="box-right">
+                                <div class="box-right-box1"><a
+                                        href="https://www.koreabaseball.com/Record/Player/HitterDetail/Basic.aspx?playerId=67341">1
+                                        &nbsp;이정후</a> &nbsp;&nbsp;<strong>키움</strong> <span>0.349</span>
+                                </div>
+                                <div class="box-right-box"><a
+                                        href="https://www.koreabaseball.com/Record/Player/HitterDetail/Basic.aspx?playerId=51463">2
+                                        &nbsp;피렐라</a> &nbsp;&nbsp;<span>삼성</span> <span>0.342</span>
+                                </div>
+                                <div class="box-right-box"><a
+                                        href="https://www.koreabaseball.com/Record/Player/HitterDetail/Basic.aspx?playerId=79215">3
+                                        &nbsp;박건우</a> &nbsp;<span>NC</span> <span>0.336</span>
+                                </div>
+                                <div class="box-right-box"><a
+                                        href="https://www.koreabaseball.com/Record/Player/HitterDetail/Basic.aspx?playerId=71564">4
+                                        &nbsp;이대호</a> &nbsp;&nbsp;<span>롯데</span> <span>0.331</span>
+                                </div>
+                                <div class="box-right-box"><a
+                                        href="https://www.koreabaseball.com/Record/Player/HitterDetail/Basic.aspx?playerId=62947">5
+                                        &nbsp;나성범</a> &nbsp;&nbsp;<span>KIA</span> <span>0.320</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box1">
+                        <div class="box-top">
+                            <h1>승리 TOP5</h1>
+                        </div>
+                        <div class="box-wrap">
+                            <div class="box-left">
+                                <a
+                                    href="https://www.koreabaseball.com/Record/Player/PitcherDetail/Basic.aspx?playerId=69103"><img
+                                        src="/img/켈리.jpg" width="120px" height="151px"></a>
+                            </div>
+                            <div class="box-right">
+                                <div class="box-right-box1"><a
+                                        href="https://www.koreabaseball.com/Record/Player/PitcherDetail/Basic.aspx?playerId=69103">1
+                                        &nbsp;켈리</a> &nbsp;&nbsp;&nbsp;&nbsp;<strong>LG</strong> <span>16</span>
+                                </div>
+                                <div class="box-right-box"><a
+                                        href="https://www.koreabaseball.com/Record/Player/PitcherDetail/Basic.aspx?playerId=52145">2
+                                        &nbsp;플릿코</a> &nbsp;<span>LG</span> <span>15</span>
+                                </div>
+                                <div class="box-right-box"><a
+                                        href="https://www.koreabaseball.com/Record/Player/PitcherDetail/Basic.aspx?playerId=68341">3
+                                        &nbsp;안우진</a> &nbsp;&nbsp;<span>키움</span> <span>15</span>
+                                </div>
+                                <div class="box-right-box"><a
+                                        href="https://www.koreabaseball.com/Record/Player/PitcherDetail/Basic.aspx?playerId=64001">4
+                                        &nbsp;고영표</a> &nbsp;<span>KT</span> <span>13</span>
+                                </div>
+                                <div class="box-right-box"><a
+                                        href="https://www.koreabaseball.com/Record/Player/PitcherDetail/Basic.aspx?playerId=50030">5
+                                        &nbsp;소형준</a> &nbsp;<span>KT</span> <span>13<span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="box-top">
+                            <h1>평균자책점 TOP5</h1>
+                        </div>
+                        <div class="box-wrap">
+                            <div class="box-left">
+                                <a
+                                    href="https://www.koreabaseball.com/Record/Player/PitcherDetail/Basic.aspx?playerId=68341"><img
+                                        src="/img/안우진.jpg" width="120px" height="151px"></a>
+                            </div>
+                            <div class="box-right">
+                                <div class="box-right-box1"><a
+                                        href="https://www.koreabaseball.com/Record/Player/PitcherDetail/Basic.aspx?playerId=68341">1
+                                        &nbsp;안우진</a> &nbsp;&nbsp;&nbsp;&nbsp;<strong>키움</strong> <span>2.11</span>
+                                </div>
+                                <div class="box-right-box"><a
+                                        href="https://www.koreabaseball.com/Record/Player/PitcherDetail/Basic.aspx?playerId=77829">2
+                                        &nbsp;김광현</a> &nbsp;&nbsp;&nbsp;&nbsp;<span>SSG</span> <span>2.13</span>
+                                </div>
+                                <div class="box-right-box"><a
+                                        href="https://www.koreabaseball.com/Record/Player/PitcherDetail/Basic.aspx?playerId=52145">3
+                                        &nbsp;플릿코</a> &nbsp;&nbsp;<span>LG</span> <span>2.39</span>
+                                </div>
+                                <div class="box-right-box"><a
+                                        href="https://www.koreabaseball.com/Record/Player/PitcherDetail/Basic.aspx?playerId=52457">4
+                                        &nbsp;수아레즈</a> &nbsp;<span>삼성</span> <span>2.49</span>
+                                </div>
+                                <div class="box-right-box"><a
+                                        href="https://www.koreabaseball.com/Record/Player/PitcherDetail/Basic.aspx?playerId=69103">5
+                                        &nbsp;켈리</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>LG</span> <span>2.54</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <form>
+                    <input type="radio" name="tab" checked="che" id="menu" />
+                    <div class="container">
+                        <input type="radio" name="tab" id="home" />
+                        <section class="home">
+                            <h1>홈</h1>
+                            <h2>평범한 삶을 추구하고 열망하는 사람입니다. 모든 것을 흐르는대로 즐기십시오.</h2>
+                            <label for="home"></label>
+                        </section>
+                        <input type="radio" name="tab" id="about" />
+                        <section class="about">
+                            <h1>1루</h1>
+                            <h2>1루는 바쁜 사람이 될 것이며 앞으로 정말 위험한 고비가 있으며 고비를 무사히 넘긴다면 부가 넘칠 예정입니다.</h2>
+                            <label for="about"></label>
+                        </section>
+                        <input type="radio" name="tab" id="work" />
+                        <section class="work">
+                            <h1>2루</h1>
+                            <h2>2루는 상당히 유한 사람이 될 상황입니다. 모든일이 순탄하고 심지어는 재력마저 얻게되며 품격과 기품을 갖춘 멋있는 사람으로 향해질 운세입니다.</h2>
+                            <label for="work"></label>
+                        </section>
+                        <input type="radio" name="tab" id="contact" />
+                        <section class="contact">
+                            <h1>3루</h1>
+                            <h2>3루는 죄송하지만 인생이 꼬일 운세입니다. 인간관계가 누그러지며 모든일에 욕심을 부려 누를 끼치게됩니다.</h2>
+                            <label for="contact"></label>
+                        </section>
+                    </div>
+                    <div class="menu">
+                        <div>
+                            <label for="menu"></label>
+                            <label for="home"></label>
+                        </div>
+                    </div>
+                </form> -->
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="top-footer">
+                <div class="top-area">
+                    <h3>BASSEBALL</h3>
+                </div>
+                <div class="bottom-area">
+                    <div class="bottom-left">
+                        <h3>상장희망 회사 바쎄볼</h3>&nbsp;
+                        <h3>02) 0101-0101</h3>
+                    </div>
+                    <div class="bottom-center">
+                        <h3><a href="#">개인정보 이용방침</a></h3>
+                        <h3><a href="#">고객센터</a></h3>
+                        <h3><a href="#">바쎄볼 배포관련방침</a></h3>
+                        <h3><a href="/club.html">꽃미남클럽(개발자들)</a></h3>
+                    </div>
+                    <div class="bottom-right">
+                        <h3><a href="https://naver.me/5zJ6P169">오시는 길</a></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
